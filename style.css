@@ -1,0 +1,122 @@
+
+*{
+    font-family:'poppins','sans_serif' ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    
+    
+    header{
+    /* /* background-color: rgb(230, 228, 225);  */
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    margin: 0%;
+    }
+    
+    .logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8em;
+    }
+    
+    .navigation a{
+    text-decoration: none;
+    color: rgb(246, 246, 255);
+    font-weight: 500;
+    font-size: 1.2;
+    padding-left: 30px;
+    margin: 10px;
+    }
+    
+    .navigation a:hover{
+    
+    color: rgb(0, 0, 0);
+    
+    }
+    
+    section{
+        padding: 100px 200px;
+       
+    }
+    
+.main{
+    color: aliceblue;
+    width: 100%;
+   min-height: 70vh;
+    /* image-rendering: auto; */
+    display: flex;
+    justify-content: center;
+    background-image:url(background.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.main h2{
+    margin-left: 220px;
+    font-size: 1.8em;
+    font-weight: 500;
+
+}
+
+ .main h1{
+    margin-left: 120px;
+    font-size: 3em; 
+    font-size: 800;  
+ }
+.main h3{
+    font-weight: 100;
+}
+
+.main h4{
+    margin-left: 130px;
+    font-weight: 100;
+}
+
+
+.main_btn{
+    text-decoration: none;
+    background-color: rgb(227, 242, 255);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px ;
+    padding: 10px 20px;
+    margin-left: 200px;
+    font-size: 15px;
+    opacity: .8;
+   transition: all 0.3s ease;
+
+    
+}
+.main_btn:hover{
+    background-color: rgb(136, 100, 152);
+    transform: scale(1.1);
+}
+
+
+
+.main_btn2{
+    text-decoration: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px ;
+    padding: 10px 20px;
+    font-size: 15px;
+}
